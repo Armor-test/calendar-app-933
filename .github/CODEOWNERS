@@ -1,0 +1,37 @@
+# CODEOWNERS file for calendar-app-933
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/squad-tooling @Armor-test/team-research
+
+# Directory ownership
+/services/ @Armor-test/squad-frontend @Armor-test/squad-tooling @Armor-test/grp-payments
+/styles/ @Armor-test/team-logging @Armor-test/dept-logging @Armor-test/dept-reliability
+/hooks/ @Armor-test/squad-frontend @Armor-test/squad-reporting
+/public/ @Armor-test/dept-test @Armor-test/unit-governance
+/helpers/ @Armor-test/team-reporting @Armor-test/squad-research
+/tests/ @Armor-test/dept-security @Armor-test/team-reporting @Armor-test/grp-search
+/scripts/ @Armor-test/grp-ui @Armor-test/dept-api
+/internal/ @Armor-test/team-notifications @Armor-test/dept-api @Armor-test/unit-governance
+/static/ @Armor-test/dept-identity @Armor-test/dept-ui @Armor-test/squad-apps
+/spec/ @Armor-test/squad-ml @Armor-test/dept-security @Armor-test/squad-payments
+/db/ @Armor-test/squad-frontend @Armor-test/unit-test @Armor-test/team-security
+/components/ @Armor-test/squad-ux @Armor-test/unit-devops @Armor-test/dept-logging
+/tools/ @Armor-test/squad-reporting @Armor-test/squad-performance
+
+# File type ownership
+*.toml @Armor-test/dept-automation @Armor-test/dept-release
+*.tf @Armor-test/team-logging @Armor-test/unit-cloud @Armor-test/unit-design
+*.cpp @Armor-test/dept-reliability @Armor-test/squad-frontend @Armor-test/dept-logging
+*.json @Armor-test/dept-ui @Armor-test/team-reporting @Armor-test/unit-design
+*.jsx @Armor-test/team-governance @Armor-test/unit-cloud
+*.h @Armor-test/squad-mobile @Armor-test/squad-payments
+*.tsx @Armor-test/squad-performance @Armor-test/team-logging
+*.swift @Armor-test/unit-devops @Armor-test/squad-ml
+*.yaml @Armor-test/squad-ux @Armor-test/squad-research
+*.md @Armor-test/dept-api @Armor-test/team-reporting
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
